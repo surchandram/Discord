@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors());
 
 // register the route
-//app.use("/api/auth", authRoutes);
+app.use("/api/auth", authRoutes);
 
 console.log("Starting our server");
 
